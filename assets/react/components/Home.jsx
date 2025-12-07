@@ -50,7 +50,7 @@ const Home = () => {
                                 Our football dream <br /> start here!
                             </h1>
                             <p className="paragraph">
-                                Come for European Cup matches & enjoy!
+                                Come for World Cup 2026 matches & enjoy!
                             </p>
 
                             <div className="cup-count-down">
