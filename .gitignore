@@ -1,0 +1,24 @@
+
+###> symfony/framework-bundle ###
+/.env
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+###> lexik/jwt-authentication-bundle ###
+/config/jwt/*.pem
+###< lexik/jwt-authentication-bundle ###
+
+###> Node.js ###
+/node_modules/
+/package-lock.json
+###< Node.js ###
+
+###> Uploads ###
+/public/uploads/
+###< Uploads ###
