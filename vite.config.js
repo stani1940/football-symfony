@@ -6,6 +6,11 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: 5173,
+    cors: {
+      origin: "*",
+      methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
+      allowedHeaders: ["X-Requested-With", "content-type", "Authorization"]
+    },
     proxy: {
       '/api': {
         target: 'http://football-symfony.test',
